@@ -1,0 +1,15 @@
+[package]
+name = "whexx"
+version = "0.1.1"
+edition = "2024"
+description = "A blazing fast hex viewer library written in Rust."
+license = "MIT"
+readme = "README.md"
+
+
+[lib]
+name = "whex"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.28.3", features = ["extension-module"] }

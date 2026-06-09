@@ -1,0 +1,17 @@
+[build-system]
+requires = ["maturin>=1.13,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "whexx"
+requires-python = ">=3.8"
+version = "0.1.1"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+authors = [
+    {name = "TimmeitX48", email = "timmejt646@gmail.com"}
+]
